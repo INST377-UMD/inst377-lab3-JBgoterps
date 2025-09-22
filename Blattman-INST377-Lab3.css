@@ -1,0 +1,60 @@
+body {
+    background-color:lightcoral;
+}
+
+#main-nav {
+    background-color:cyan;
+    font-family:cursive;
+    padding: 10px;
+}
+
+
+#main-nav a {
+    margin: 5px;
+}
+
+#main-nav a:hover {
+    color:red;
+}
+
+#headfoot {
+    text-align: center;
+    background-color: red;
+    color: gold;
+    margin: 50px;
+    padding: 10px;
+    font-family: fantasy;
+}
+
+#sidebar {
+
+    float: right;
+    width: 25%;
+    background-color: purple;
+    color: lime;
+    margin: 30px;
+    padding: 10px;
+}
+
+#sidebar:hover{
+    background-color: orange;
+    color: aqua;
+}
+
+.main-content { 
+    float: left;
+    width: 50%;
+    background-color: lightblue;
+    margin: 30px;
+    padding: 10px;
+}
+
+.main-container {
+    width: 100%;
+    height: 50%;
+    font-family: monospace;
+}
+
+#name:focus {
+    width: 40%;
+  }
